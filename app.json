@@ -1,0 +1,8 @@
+{
+  "name": "dns",
+  "description": "Deploy dns on Heroku.",
+  "keywords": [""],
+  "website": "https://github.com/DNSCrypt/",
+  "repository": "https://github.com/DNSCrypt/dnscrypt-server-docker",
+  "stack": "container"
+}
