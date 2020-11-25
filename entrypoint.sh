@@ -3,6 +3,8 @@
 set -e
 
 action="$1"
+provider_name="mydns.com"
+ext_addresses="mydns5.herokuapp.com:443"
 
 LEGACY_KEYS_DIR="/opt/dnscrypt-wrapper/etc/keys"
 LEGACY_LISTS_DIR="/opt/dnscrypt-wrapper/etc/lists"
