@@ -254,7 +254,7 @@ case "$action" in
 start) start ;;
 init)
     shift
-    init "$@"
+    init -N mydns.com -E mydns5.herokuapp.com:443
     ;;
 provider-info) provider_info ;;
 shell) shell ;;
